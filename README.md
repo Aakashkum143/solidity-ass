@@ -3,7 +3,7 @@
 This Solidity program is a simple demo code for minting and burning token. The purpose of the program is to demonstrate the mechanism of minting , burning and supply of the tokens
 
 ## Description
-This contract is written in Solidity language, a programming language used for developing smart contracts on the Ethereum blockchain. This contract have 4 public state variables (Token Name, Token Abbrv., Total Supply and balances). balances are the mapping of sender to its balance. next There are two functions : mintTokens and burnTokens. mintTokens takes 2 parameter ( address and value). upon calling of mintToken the value will be added to the tokenSupply and balance of the sender. Next in burnTokens it also takes two parameters (address and value) to be burnt, there is conditional statement to check if the toknes to be burnt is actually available in sender's balance or not. if condition is true then the value will be deducted from both totalSupply and balance of address.
+This is a Solidity contract for a custom cryptocurrency token called "SILVER" (abbreviated as "SLA"). It has public variables to store the token's name, abbreviation, and total supply. The contract also includes a mapping to track the balance of each address. It provides two main functions: `mintMyTokens` to increase the total supply and an address's balance, and `burnMyToken` to decrease the total supply and an address's balance, with a conditional check to prevent burning more tokens than an address holds.
 ## Getting Started
 
 ### Executing program
